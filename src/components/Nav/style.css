@@ -1,0 +1,131 @@
+.nav-container {
+  z-index: 100;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 2.4rem;
+  box-sizing: border-box;
+  background-color: hsl(145, 100%, 26%);
+}
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-size: 3rem;
+  color: black;
+  font-weight: bold;
+}
+
+.nav-menu, .close-menu, .social-links, .visible-menu {
+  display: none;
+}
+
+.social-links img{
+  width: 3.3rem;
+}
+
+.close-menu img {
+  position: relative;
+  right: -5px;
+  width: 35px;
+}
+
+body.menu-expanded .close-menu,
+body.menu-expanded .nav-menu{
+  display: initial;
+  background-color: hsl(145, 100%, 26%);
+}
+
+body.menu-expanded .open-menu{
+  display: none;
+}
+
+body.menu-expanded .nav-container{
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  padding-top: .9rem;
+  position: absolute;
+  top: 0
+}
+
+body.menu-expanded .visible-menu {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-around;
+}
+
+body.menu-expanded .nav-menu{
+  flex-direction: column;
+}
+body.menu-expanded .nav-menu button{
+  font-size: 3rem;
+}
+
+body.menu-expanded .nav-menu,
+body.menu-expanded .social-links
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 5px;
+  gap: 5rem;
+}
+
+
+@media(min-width: 1024px) {
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .nav-bar{
+    width: 20%;
+  }
+
+  .visible-menu{
+    width: 60vw;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .open-menu, .mobile-menu, .close-menu {
+    display: none;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  .nav-paths li a,
+  .login-btn a{
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  .desktop-menu-btn{
+    display: initial;
+  }
+
+  .login-btn{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+}
