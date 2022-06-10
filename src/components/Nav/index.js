@@ -10,7 +10,11 @@ import {Button} from '../Button/index'
 
 export function Header(){
   const openMenu = () => {
-    document.body.classList.toggle('menu-expanded')
+    document.body.classList.add('menu-expanded')
+  }
+
+  const closeMenu = () =>{
+    document.body.classList.remove('menu-expanded')
   }
 
   const navigate = useNavigate()
@@ -29,26 +33,26 @@ export function Header(){
           </a>
         <Button className='open-menu' onClick={() => openMenu()}
           value={<img src={OpenMenu} alt="button to open menu"/>}/>
-        <Button className='close-menu' onClick={() => openMenu()} value={<img src={CloseMenu} alt="button to close menu"/>}/>
+        <Button className='close-menu' onClick={() => closeMenu()} value={<img src={CloseMenu} alt="button to close menu"/>}/>
         </div>
       <div className='visible-menu'>
         <div className="nav-menu">
           <Button value='Inicio' 
           onClick={()=>{
-            openMenu()
+            closeMenu()
             changeRouteHome()
           }}/>
           <Button value='Sobre'  onClick={() =>{
-            openMenu()
+            closeMenu()
             changeRouteAbout()
           } }/>
           <Button value='Login' onClick={() => {
-            openMenu()
+            closeMenu()
             changeRouteLogin()
             }}/>
           <Button value='Cadastro' 
           onClick={() =>{
-            openMenu()
+            closeMenu()
             changeRouteRegister()
           }}
             />
