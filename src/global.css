@@ -15,14 +15,15 @@
 
 
 body {
-  background-color: var(--bg-light);
+  background-color: hsl(155, 100%, 90%);
   height: 100%;
   font-size: 1.6rem;
+  box-sizing: border-box;
   
+
   margin: 0;
   scroll-behavior: smooth;
 
-  text-align: center;
   overflow: overlay;
 
   font-family: -apple-system, BlinkMacSystemFont,'DM Sans',  'Segoe UI', 'Roboto', 'Oxygen',
@@ -45,3 +46,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+img {
+  max-width: 100%;
+}
+
+
