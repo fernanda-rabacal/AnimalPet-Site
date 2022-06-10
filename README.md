@@ -2,7 +2,7 @@
 
 🇧🇷 Este é o projeto do site da empresa Animal Pet, sendo feito com ReactJs, baseado no projeto da landing page da mesma empresa. As rotas principais ja foram implementadas e farei o backend, permitindo que apenas dois logins sejam validados. Futuramente pretendo conectar um banco de dados para acessar informações do perfil e de produtos da pagina.
 
-🇺🇸 This is the project of Animal Pet enterprise, that it's being made with ReactJs, based on the landing page project of the same enterprise. The principal routes was already done and i'll make the backend, allowing only two logins to validate. In the future i intend to conect a database to acess a personal profile informations and products. 
+🇺🇸 This is the project of Animal Pet enterprise, that it's being made with ReactJs, based on the landing page project of the same enterprise. The principal routes was already done and i'll make the backend, allowing only two logins to validate. In the future i intend to conect a database to acess a personal profile informations and the store products informations. 
 
 ### Status: In progress 🚧
 
