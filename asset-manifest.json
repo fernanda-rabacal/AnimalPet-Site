@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/AnimalPet-Reactjs/static/css/main.6d23318a.css",
+    "main.js": "/AnimalPet-Reactjs/static/js/main.1ac90b01.js",
+    "static/css/937.8753c39d.chunk.css": "/AnimalPet-Reactjs/static/css/937.8753c39d.chunk.css",
+    "static/js/937.a454b8ec.chunk.js": "/AnimalPet-Reactjs/static/js/937.a454b8ec.chunk.js",
+    "static/css/5.a453babd.chunk.css": "/AnimalPet-Reactjs/static/css/5.a453babd.chunk.css",
+    "static/js/5.05257541.chunk.js": "/AnimalPet-Reactjs/static/js/5.05257541.chunk.js",
+    "static/js/787.1033570c.chunk.js": "/AnimalPet-Reactjs/static/js/787.1033570c.chunk.js",
+    "static/css/651.45efdc2c.chunk.css": "/AnimalPet-Reactjs/static/css/651.45efdc2c.chunk.css",
+    "static/js/651.2838881e.chunk.js": "/AnimalPet-Reactjs/static/js/651.2838881e.chunk.js",
+    "static/css/536.45efdc2c.chunk.css": "/AnimalPet-Reactjs/static/css/536.45efdc2c.chunk.css",
+    "static/js/536.29584652.chunk.js": "/AnimalPet-Reactjs/static/js/536.29584652.chunk.js",
+    "static/media/dog-cat-puppy-kitten.png": "/AnimalPet-Reactjs/static/media/dog-cat-puppy-kitten.6c29fbe1fbab37e2f627.png",
+    "static/media/whatsapp.svg": "/AnimalPet-Reactjs/static/media/whatsapp.06b7066d387f15377264f605b2e19dbc.svg",
+    "static/media/instagram-logo.svg": "/AnimalPet-Reactjs/static/media/instagram-logo.08cb80843ead7d2fbd16f8d7c82f4e56.svg",
+    "index.html": "/AnimalPet-Reactjs/index.html",
+    "static/media/facebook-logo.svg": "/AnimalPet-Reactjs/static/media/facebook-logo.d53af2240bd06d8c326c1fc991e30439.svg",
+    "static/media/OpenMenu.svg": "/AnimalPet-Reactjs/static/media/OpenMenu.c538a2b3190b83dab71f8304a78cc758.svg",
+    "static/media/closeMenu-btn.svg": "/AnimalPet-Reactjs/static/media/closeMenu-btn.be7d843f54737ba604934e7e9c400a27.svg",
+    "main.6d23318a.css.map": "/AnimalPet-Reactjs/static/css/main.6d23318a.css.map",
+    "main.1ac90b01.js.map": "/AnimalPet-Reactjs/static/js/main.1ac90b01.js.map",
+    "937.8753c39d.chunk.css.map": "/AnimalPet-Reactjs/static/css/937.8753c39d.chunk.css.map",
+    "937.a454b8ec.chunk.js.map": "/AnimalPet-Reactjs/static/js/937.a454b8ec.chunk.js.map",
+    "5.a453babd.chunk.css.map": "/AnimalPet-Reactjs/static/css/5.a453babd.chunk.css.map",
+    "5.05257541.chunk.js.map": "/AnimalPet-Reactjs/static/js/5.05257541.chunk.js.map",
+    "787.1033570c.chunk.js.map": "/AnimalPet-Reactjs/static/js/787.1033570c.chunk.js.map",
+    "651.45efdc2c.chunk.css.map": "/AnimalPet-Reactjs/static/css/651.45efdc2c.chunk.css.map",
+    "651.2838881e.chunk.js.map": "/AnimalPet-Reactjs/static/js/651.2838881e.chunk.js.map",
+    "536.45efdc2c.chunk.css.map": "/AnimalPet-Reactjs/static/css/536.45efdc2c.chunk.css.map",
+    "536.29584652.chunk.js.map": "/AnimalPet-Reactjs/static/js/536.29584652.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d23318a.css",
+    "static/js/main.1ac90b01.js"
+  ]
+}

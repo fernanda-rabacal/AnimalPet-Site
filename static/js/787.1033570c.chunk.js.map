@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/787.1033570c.chunk.js","mappings":"oLAAO,SAASA,IACd,OACE","sources":["pages/Error/index.js"],"sourcesContent":["export function Error(){\r\n  return(\r\n    <div>\r\n      Ih ala, burrão!\r\n    </div>\r\n  )\r\n\r\n}"],"names":["Error"],"sourceRoot":""}
