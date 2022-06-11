@@ -23,9 +23,9 @@ export function Home(){
             </button>
           </div> 
           <div className="col-b">
-
-            <img className="home-img" src={DogCat} alt="two cats and two dogs" />
+            
           </div>
+            <img className="home-img" src={DogCat} alt="two cats and two dogs" />
             <section className="stats">
             <div className="stat">
             <h3 className="stat-title">Consultório</h3>
