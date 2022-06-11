@@ -3,6 +3,7 @@ import {Header} from '../../components/Nav';
 import Whatsapp from '../../assets/whatsapp.svg';
 import {Footer} from '../../components/Footer'
 import DogCat from '../../assets/dog-cat-puppy-kitten.png';
+import { Button } from "../../components/Button";
 
 export function Home(){
 
@@ -19,11 +20,11 @@ export function Home(){
               A Animal Pet possui uma estrutura completa para cuidar do seu pet, desde consultório veterinário, área de banho e tosa, além de acessórios e rações da maior qualidade! Estamos abertos de segunda a sabado, das 8hrs às 18hrs
             </p>
               <a target="_blank" rel="noreferrer" href="https://wa.me/5571993172074" >
-            <button className='home-button'>
-
-            <img src={Whatsapp} alt='whatsapp logo'/>
-             <p>Agende agora Sua tosa</p>
-            </button>
+                <Button value={
+                <div className='home-button'>
+                  <img src={Whatsapp} alt='whatsapp logo'/>
+               <p>Agende agora Sua tosa</p>
+                </div>}  />
               </a>
           </div>
             <img className="home-img" src={DogCat} alt="two cats and two dogs" />

@@ -5,6 +5,7 @@ import CloseMenu from "../../assets/closeMenu-btn.svg"
 import Instagram from '../../assets/instagram-logo.svg'
 import Facebook from '../../assets/facebook-logo.svg'
 import Whatsapp from '../../assets/whatsapp.svg'
+import Carrinho from '../../assets/carrinho.svg'
 import {Button} from '../Button/index'
 
 
@@ -76,6 +77,10 @@ export function Header(){
                 <img src={Whatsapp} alt='link to Whatsapp' />
               </a>
               </div>
+              <Button value={<div className='carrinho'>
+              <img src={Carrinho} alt='link to Carrinho' />
+              <p>Carrinho</p>
+              </div>} />
           </div>
     </div>
   )

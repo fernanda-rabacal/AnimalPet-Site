@@ -28,9 +28,24 @@
   display: none;
 }
 
-.social-links img{
+.social-links img,
+.carrinho img{
   width: 3.3rem;
 }
+
+.carrinho{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-left: 1rem;
+}
+
+
 
 .close-menu img {
   position: relative;
@@ -91,6 +106,10 @@ body.menu-expanded .social-links
 
   .nav-bar{
     width: 20%;
+  }
+
+  .carrinho{  
+  border-left: 1px solid white;
   }
 
   .menu-btn::after {
