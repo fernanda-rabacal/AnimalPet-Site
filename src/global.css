@@ -21,6 +21,7 @@ body {
   
   margin-top: 12vh;
   margin-inline: 0;
+  margin-bottom: 0;
   scroll-behavior: smooth;
 
   overflow: overlay;

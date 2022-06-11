@@ -1,7 +1,8 @@
-import "./style.css"
-import {Header} from '../../components/Nav'
-import Whatsapp from '../../assets/whatsapp.svg'
-import DogCat from '../../assets/dog-cat-puppy-kitten.png'
+import "./style.css";
+import {Header} from '../../components/Nav';
+import Whatsapp from '../../assets/whatsapp.svg';
+import {Footer} from '../../components/Footer'
+import DogCat from '../../assets/dog-cat-puppy-kitten.png';
 
 export function Home(){
 
@@ -41,6 +42,7 @@ export function Home(){
             </div>
             </section>
       </div>
+      <Footer />
     </div>
   )
 
