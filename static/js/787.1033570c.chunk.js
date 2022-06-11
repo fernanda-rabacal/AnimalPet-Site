@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkanimalpet_commerce=self.webpackChunkanimalpet_commerce||[]).push([[787],{787:function(r,e,n){n.r(e),n.d(e,{Error:function(){return u}});var c=n(184);function u(){return(0,c.jsx)("div",{children:"Ih ala, burr\xe3o!"})}}}]);
-//# sourceMappingURL=787.1033570c.chunk.js.map
