@@ -37,7 +37,7 @@ export function Header(){
         </div>
       <div className='visible-menu'>
         <div className="nav-menu">
-          <Button value='Inicio' className="menu-btn"
+          <Button value='Home' className="menu-btn"
           onClick={()=>{
             closeMenu()
             changeRouteHome()

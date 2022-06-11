@@ -2,6 +2,11 @@
   background-color: var(--brand-beige);
 }
 
+body.menu-expanded .about-content{
+  display: none
+}
+
+
 .about-content{
   display: flex;
   flex-direction: column;
@@ -62,7 +67,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: .8rem;
   padding: 2.4rem;
   text-align: left;
   font-size: 2rem;
@@ -82,7 +86,6 @@
   font-style:normal;
 
   color: var(--bg-brand-button);
-  font-weight: 700;
 }
 
 .card img {
@@ -93,6 +96,7 @@
   width:4.2rem;
   height:4.2rem;
   object-fit: cover;
+  
   border-radius: 3rem;
  }
 
@@ -100,10 +104,12 @@
   .about-content{
     width: min(112rem, 100%);
     display: grid;
-    grid-template-columns: 1fr 56rem;
+    grid-template-columns: 1fr 64rem;
     grid-template-areas: 
     'A B'
     'C C';
+    padding-inline: 2rem;
+  
   }
 
   .about-img {
@@ -112,6 +118,7 @@
   }
   .col-b {
     grid-area: B;
+    margin-left: 2rem;
   }
 
   .testimonials{
@@ -121,4 +128,14 @@
     grid-area: C;
   }
 
+  .cards {
+    flex-direction: row;
+    gap: 4rem;
+  }
+
+  .card {
+    height: 35rem;
+    width: 30%;
+  }
+  
  }

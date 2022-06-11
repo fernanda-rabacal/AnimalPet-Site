@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+body.menu-expanded .home-wrapper, 
+body.menu-expanded .home-container::before{
+  display: none
+}
+
 .home-container::before{
   content: "";
   width: 100%;

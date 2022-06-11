@@ -27,15 +27,31 @@ export function About(){
       <div className="cards" >
         <div className='card' >
           <img src={Quote} alt='quotation marks'/>
+          <p><i>O espaço é aconchegante, arejado, bom atendimento e grande variedade de produtos. Recomendo também o banho e tosa pra seu pet.</i></p>
+          <cite>
+            <img src="https://randomuser.me/api/portraits/men/23.jpg" alt="Foto de um uma pessoa em seu perfil de rede social" />
+            George Ribeiro
+          </cite>
+        </div>
+        <div className='card' >
+          <img src={Quote} alt='quotation marks'/>
           <p><i>Gosto muito dessa loja, todos trabalham com empenho e dedicação. O preço é ótimo e o banho e tosa é perfeito, o pet volta brincalhão e feliz pra casa. Super indico!!</i></p>
           <cite>
             <img src="https://randomuser.me/api/portraits/women/16.jpg" alt="Foto de um uma pessoa em seu perfil de rede social" />
             Telma Leal
           </cite>
         </div>
+        <div className='card' >
+          <img src={Quote} alt='quotation marks'/>
+          <p><i>Adorei o lugar, todos são muito educados, o espaço é confortável. Tem realmente uma grande variedade de opções, a tosa é muito boa e meu gato  é sempre muito bem cuidado pelos veterinarios!!</i></p>
+          <cite>
+            <img src="https://randomuser.me/api/portraits/women/79.jpg" alt="Foto de um uma pessoa em seu perfil de rede social" />
+            Fernanda Rabaçal
+          </cite>
+        </div>
       </div>
       </div>
       </div>
-    </div>  
+      </div>
   )
 }

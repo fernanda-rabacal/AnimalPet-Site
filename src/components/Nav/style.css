@@ -52,7 +52,7 @@ body.menu-expanded .nav-container{
   flex-direction: column;
   height: 100vh;
   overflow: hidden;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
   top: 0
 }
 
@@ -122,14 +122,8 @@ body.menu-expanded .social-links
     align-items: center;
   }
   
-  .open-menu, .mobile-menu, .close-menu {
+  .open-menu, .mobile-menu, .close-menu, .social-links {
     display: none;
-  }
-  
-  .social-links {
-    display: flex;
-    justify-content: center;
-    gap: 5rem;
   }
 
   .nav-paths li a,
