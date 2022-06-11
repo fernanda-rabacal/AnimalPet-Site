@@ -6,9 +6,9 @@ import Quote from '../../assets/quote-marks.svg'
 
 export function About(){
   return(
-    <div>
+    <div className="about-container">
       <Header/>
-      <div className="about-container">
+      <div className="about-content">
         <div className="col-b">
         <div className="about-titles">
       <h4>SOBRE NÓS</h4>

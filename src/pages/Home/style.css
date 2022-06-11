@@ -152,6 +152,7 @@
   }
   .home-img{
     height: 37.2rem;
+    grid-area: B;
   }
 
   .stats .stat{
