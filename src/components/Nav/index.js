@@ -37,20 +37,25 @@ export function Header(){
         </div>
       <div className='visible-menu'>
         <div className="nav-menu">
-          <Button value='Inicio' 
+          <Button value='Inicio' className="menu-btn"
           onClick={()=>{
             closeMenu()
             changeRouteHome()
           }}/>
-          <Button value='Sobre'  onClick={() =>{
+          <Button value='Sobre'
+          className="menu-btn"
+            onClick={() =>{
             closeMenu()
             changeRouteAbout()
           } }/>
-          <Button value='Login' onClick={() => {
+          <Button value='Login' 
+          className="menu-btn"
+          onClick={() => {
             closeMenu()
             changeRouteLogin()
             }}/>
-          <Button value='Cadastro' 
+          <Button value='Cadastro'
+          className="menu-btn" 
           onClick={() =>{
             closeMenu()
             changeRouteRegister()

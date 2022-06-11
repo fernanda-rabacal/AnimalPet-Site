@@ -1,7 +1,9 @@
+import {Header} from '../../components/Nav'
+
 export function Error(){
   return(
     <div>
-      Ih ala, burrão!
+      <Header/>
     </div>
   )
 
