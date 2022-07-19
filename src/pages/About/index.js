@@ -1,4 +1,5 @@
 import {Header} from '../../components/Nav'
+import {Footer} from '../../components/Footer'
 import './style.css'
 import VetFoto from '../../assets/vaterinaria-com-cachorrinho.png'
 import Quote from '../../assets/quote-marks.svg'
@@ -52,6 +53,7 @@ export function About(){
       </div>
       </div>
       </div>
+      <Footer />
       </div>
   )
 }

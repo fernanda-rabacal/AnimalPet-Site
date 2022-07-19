@@ -27,7 +27,7 @@ export function Home(){
                 </div>}  />
               </a>
           </div>
-            <img className="home-img" src={DogCat} alt="two cats and two dogs" />
+            <img className="home-img" src={DogCat} alt="two cats and two dogs side by side" />
             <section className="stats">
             <div className="stat">
             <h3 className="stat-title">Consultório</h3>

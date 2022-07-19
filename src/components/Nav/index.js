@@ -27,7 +27,7 @@ export function Header(){
 
   
   return(
-    <div className='nav-container'>
+    <nav className='nav-container'>
         <div className='nav-bar'> 
           <a className='nav-logo' href="#home">
           AnimalPet 
@@ -79,9 +79,9 @@ export function Header(){
               </div>
               <Button value={<div className='carrinho'>
               <img src={Carrinho} alt='link to Carrinho' />
-              <p>Carrinho</p>
+              <p id='carrinho-p'>Carrinho</p>
               </div>} />
           </div>
-    </div>
+    </nav>
   )
 }

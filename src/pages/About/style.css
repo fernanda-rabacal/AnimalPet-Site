@@ -46,7 +46,7 @@ body.menu-expanded .about-content{
   color: var(--headline);
 }
 
-.about-container p{
+.about-content p{
   margin-top: 2rem;
   margin-bottom: 5rem;
   color: var(--paragraph);
